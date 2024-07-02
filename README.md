@@ -85,11 +85,12 @@ There are mainly 2 ways of installing Perplexica - With Docker, Without Docker. 
 
 ### Non-Docker Installation
 
-1. Clone the repository and rename the `sample.config.toml` file to `config.toml` in the root directory. Ensure you complete all required fields in this file.
-2. Rename the `.env.example` file to `.env` in the `ui` folder and fill in all necessary fields.
-3. After populating the configuration and environment files, run `npm i` in both the `ui` folder and the root directory.
-4. Install the dependencies and then execute `npm run build` in both the `ui` folder and the root directory.
-5. Finally, start both the frontend and the backend by running `npm run start` in both the `ui` folder and the root directory.
+1. Install SearXNG and allow `JSON` format in the SearXNG settings.
+2. Clone the repository and rename the `sample.config.toml` file to `config.toml` in the root directory. Ensure you complete all required fields in this file.
+3. Rename the `.env.example` file to `.env` in the `ui` folder and fill in all necessary fields.
+4. After populating the configuration and environment files, run `npm i` in both the `ui` folder and the root directory.
+5. Install the dependencies and then execute `npm run build` in both the `ui` folder and the root directory.
+6. Finally, start both the frontend and the backend by running `npm run start` in both the `ui` folder and the root directory.
 
 **Note**: Using Docker is recommended as it simplifies the setup process, especially for managing environment variables and dependencies.
 
@@ -146,11 +147,11 @@ If you find Perplexica useful, consider giving us a star on GitHub. This helps m
 
 ### Donations
 
-We also accept donations to help sustain our project. If you would like to contribute, you can use the following button to make a donation in cryptocurrency. Thank you for your support!
+We also accept donations to help sustain our project. If you would like to contribute, you can use the following options to donate. Thank you for your support!
 
-<a href="https://nowpayments.io/donation?api_key=RFFKJH1-GRR4DQG-HFV1DZP-00G6MMK&source=lk_donation&medium=referral" target="_blank">
-  <img src="https://nowpayments.io/images/embeds/donation-button-white.svg" alt="Crypto donation button by NOWPayments">
-</a>
+| Cards  | Ethereum |
+|---|---|
+|  https://www.patreon.com/itzcrazykns  | Address: `0xB025a84b2F269570Eb8D4b05DEdaA41D8525B6DD`  |
 
 ## Contribution
 
